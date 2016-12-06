@@ -26,6 +26,7 @@ public class StudentRegistration extends MVCPortlet {
 	public void processAction(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
 		// TODO Auto-generated method stub
+		log.info("process action called");
 		super.processAction(actionRequest, actionResponse);
 	}
 
