@@ -27,7 +27,8 @@ public class StudentRegistration extends MVCPortlet {
 	@ProcessAction(name="addEmployee")
 	public void addEmployee(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
-		log.info("add employee is called");
+		log.info("add employee is called  again conflict");
+		log.info("hello world");
 	}
 
 }
