@@ -24,11 +24,14 @@ public class StudentRegistration extends MVCPortlet {
 		log.info("render method called");
 	super.render(arg0, arg1);
 	}
-	@ProcessAction(name="addEmployee")
+	@ProcessAction(name="addStudent")
 	public void addEmployee(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
+
 		log.info("add employee is called  again conflict");
 		log.info("hello world");
+		log.info("add Student is called");
+
 	}
 
 }
