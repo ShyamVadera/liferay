@@ -14,7 +14,6 @@ import javax.portlet.RenderResponse;
  * Portlet implementation class StudentRegistration
  */
 public class StudentRegistration extends MVCPortlet {
-	private static final Log log=LogFactoryUtil.getLog(StudentRegistration.class);
 	@Override
 	public void render(RenderRequest arg0, RenderResponse arg1)
 			throws PortletException, IOException {
