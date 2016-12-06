@@ -19,7 +19,7 @@ public class StudentRegistration extends MVCPortlet {
 	public void render(RenderRequest arg0, RenderResponse arg1)
 			throws PortletException, IOException {
 		log.info("render method called");
-	
+	super.render(arg0, arg1);
 	}
 
 }
