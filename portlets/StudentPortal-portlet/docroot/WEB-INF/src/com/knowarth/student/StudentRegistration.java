@@ -27,8 +27,7 @@ public class StudentRegistration extends MVCPortlet {
 	@ProcessAction(name="addEmployee")
 	public void addEmployee(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
-		// TODO Auto-generated method stub
-		
+		log.info("add employee is called");
 	}
 
 }
