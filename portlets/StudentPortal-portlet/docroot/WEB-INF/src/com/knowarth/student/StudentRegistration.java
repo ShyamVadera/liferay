@@ -25,6 +25,7 @@ public class StudentRegistration extends MVCPortlet {
 		log.info("render method called");
 	super.render(arg0, arg1);
 	}
+
 	@ProcessAction(name="addFaculty")
 	public void addEmployee(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
