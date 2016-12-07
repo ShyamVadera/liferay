@@ -47,7 +47,10 @@ public class StudentRegistration extends MVCPortlet {
 		log.info("add college is called");
 
 	}
-
-
+	@ProcessAction(name="addAddress")
+	public void addAddress(ActionRequest actionRequest,
+			ActionResponse actionResponse) throws IOException, PortletException {
+		
+	}
 }
 
