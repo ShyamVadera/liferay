@@ -2,6 +2,7 @@ package com.knowarth.student;
 
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
+import com.liferay.portal.kernel.util.ParamUtil;
 import com.liferay.util.bridges.mvc.MVCPortlet;
 
 import java.io.IOException;
@@ -28,9 +29,9 @@ public class StudentRegistration extends MVCPortlet {
 	public void addEmployee(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
 
-		log.info("add faculty is called");
-		log.info("add faculty is called" in clg method);
-
+		String studentName=ParamUtil.getString(actionRequest,"studentName");
+		log.info("add faculty is called in clg method");
+		log.info(studentName);
 	}
 	@ProcessAction(name="addCollege")
 	public void addCollege(ActionRequest actionRequest,
