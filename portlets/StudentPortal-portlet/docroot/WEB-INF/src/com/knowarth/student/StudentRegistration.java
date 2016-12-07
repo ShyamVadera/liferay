@@ -13,6 +13,8 @@ import javax.portlet.PortletException;
 import javax.portlet.ProcessAction;
 import javax.portlet.RenderRequest;
 import javax.portlet.RenderResponse;
+import javax.portlet.ResourceRequest;
+import javax.portlet.ResourceResponse;
 
 /**
  * Portlet implementation class StudentRegistration
@@ -53,6 +55,13 @@ public class StudentRegistration extends MVCPortlet {
 	public void addAddress(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
 		
+	}
+	@Override
+	public void serveResource(ResourceRequest resourceRequest,
+			ResourceResponse resourceResponse) throws IOException,
+			PortletException {
+	
+		super.serveResource(resourceRequest, resourceResponse);
 	}
 }
 
