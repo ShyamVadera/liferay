@@ -60,7 +60,7 @@ public class StudentRegistration extends MVCPortlet {
 	public void serveResource(ResourceRequest resourceRequest,
 			ResourceResponse resourceResponse) throws IOException,
 			PortletException {
-	
+		log.info("serve resource added");
 		super.serveResource(resourceRequest, resourceResponse);
 	}
 }
