@@ -24,14 +24,7 @@ public class StudentRegistration extends MVCPortlet {
 		log.info("render method called");
 	super.render(arg0, arg1);
 	}
-	@ProcessAction(name="addFaculty")
-	public void addEmployee(ActionRequest actionRequest,
-			ActionResponse actionResponse) throws IOException, PortletException {
-
-		log.info("add faculty is called");
-		log.info("add faculty is called" in clg method);
-
-	}
+	
 	@ProcessAction(name="addCollege")
 	public void addCollege(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
