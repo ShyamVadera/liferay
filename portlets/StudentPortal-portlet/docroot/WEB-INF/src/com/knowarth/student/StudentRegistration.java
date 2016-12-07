@@ -33,6 +33,7 @@ public class StudentRegistration extends MVCPortlet {
 		String studentName=ParamUtil.getString(actionRequest,"studentName");
 		String lastName=ParamUtil.getString(actionRequest,"lastName");
 		String stdName=studentName+lastName;
+		int age=ParamUtil.getInteger(actionRequest,"age");
 		log.info("add faculty is called in clg method");
 		log.info(studentName);
 		log.info(stdName);
