@@ -33,5 +33,15 @@ public class StudentRegistration extends MVCPortlet {
 		log.info("add Student is called");
 
 	}
+	@ProcessAction(name="addCollege")
+	public void addCollege(ActionRequest actionRequest,
+			ActionResponse actionResponse) throws IOException, PortletException {
+
+		log.info("add college is called  again conflict");
+		log.info("hello world");
+		log.info("add college is called");
+
+	}
+
 
 }
