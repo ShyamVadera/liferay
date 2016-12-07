@@ -31,9 +31,11 @@ public class StudentRegistration extends MVCPortlet {
 			ActionResponse actionResponse) throws IOException, PortletException {
 
 		String studentName=ParamUtil.getString(actionRequest,"studentName");
-		String stdName=ParamUtil.getString(actionRequest,"stdName");
+		String lastName=ParamUtil.getString(actionRequest,"lastName");
+		String stdName=studentName+lastName;
 		log.info("add faculty is called in clg method");
 		log.info(studentName);
+		log.info(stdName);
 	}
 	@ProcessAction(name="addCollege")
 	public void addCollege(ActionRequest actionRequest,
@@ -47,3 +49,4 @@ public class StudentRegistration extends MVCPortlet {
 
 
 }
+
