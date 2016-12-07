@@ -61,6 +61,7 @@ public class StudentRegistration extends MVCPortlet {
 			ResourceResponse resourceResponse) throws IOException,
 			PortletException {
 		log.info("serve resource added");
+		log.info("hello");
 		super.serveResource(resourceRequest, resourceResponse);
 	}
 }
