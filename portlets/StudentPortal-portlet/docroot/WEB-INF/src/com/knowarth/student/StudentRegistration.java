@@ -46,16 +46,14 @@ public class StudentRegistration extends MVCPortlet {
 	public void addColleges(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
 
-		log.info("add college is called  again conflict");
-		log.info("hello worlds");
-		log.info("add college is called");
-
+		
 	}
 	@ProcessAction(name="addAddress")
 	public void addAddress(ActionRequest actionRequest,
 			ActionResponse actionResponse) throws IOException, PortletException {
 		
 	}
+
 	@Override
 	public void serveResource(ResourceRequest resourceRequest,
 			ResourceResponse resourceResponse) throws IOException,
